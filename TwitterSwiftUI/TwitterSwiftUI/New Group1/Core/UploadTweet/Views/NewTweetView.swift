@@ -40,10 +40,13 @@ struct NewTweetView: View {
                 Circle()
                     .frame(width: 64, height: 64)
                 
-                TextArea("What's happening?", text: $caption)
+                TextField("What's happening?", text: $caption, axis: .vertical)
             }
             .padding()
+            Spacer()
+
         }
+        
     }
 }
 
