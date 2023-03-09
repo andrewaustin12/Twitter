@@ -31,6 +31,7 @@
 		3F7D964129BA36730079A466 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D964029BA36730079A466 /* LoginView.swift */; };
 		3F7D964329BA37F20079A466 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D964229BA37F20079A466 /* RoundedShape.swift */; };
 		3F7D964529BA3E740079A466 /* CustomInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D964429BA3E740079A466 /* CustomInputField.swift */; };
+		3F7D964C29BA558B0079A466 /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D964B29BA558B0079A466 /* AuthHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		3F7D964029BA36730079A466 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3F7D964229BA37F20079A466 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 		3F7D964429BA3E740079A466 /* CustomInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputField.swift; sourceTree = "<group>"; };
+		3F7D964B29BA558B0079A466 /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		3F7D960629B916FA0079A466 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				3F7D964629BA54C90079A466 /* Authentication */,
 				3F7D962429B92F880079A466 /* Users */,
 				3F7D960C29B918710079A466 /* Tweets */,
 				3F7D963929BA1CA20079A466 /* TextArea.swift */,
@@ -352,6 +355,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		3F7D964629BA54C90079A466 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				3F7D964B29BA558B0079A466 /* AuthHeaderView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -442,6 +453,7 @@
 				3F7D963329B93E1A0079A466 /* SideMenuOptionRowView.swift in Sources */,
 				3F7D961129B91F100079A466 /* MainTabView.swift in Sources */,
 				3F7D961929B920960079A466 /* NotificationsView.swift in Sources */,
+				3F7D964C29BA558B0079A466 /* AuthHeaderView.swift in Sources */,
 				3F7D964129BA36730079A466 /* LoginView.swift in Sources */,
 				3F7D963129B936900079A466 /* UserStatsView.swift in Sources */,
 			);
