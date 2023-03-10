@@ -17,6 +17,7 @@ struct RegistrationView: View {
     
     var body: some View {
         VStack {
+            
             AuthHeaderView(title1: "Get Started.", title2: "Create your account")
             
             VStack(spacing: 40) {
@@ -73,6 +74,9 @@ struct RegistrationView: View {
 
         }
         .ignoresSafeArea()
+        .sheet(isPresented: $viewModel.didAuthenticateUser) {
+            ProfilePhotoSelectorView()
+        }
     }
 }
 
