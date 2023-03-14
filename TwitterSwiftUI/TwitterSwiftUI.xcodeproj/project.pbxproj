@@ -44,6 +44,7 @@
 		3F7D966229BD274A0079A466 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D966129BD274A0079A466 /* UserService.swift */; };
 		3F7D966429BE11A00079A466 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D966329BE11A00079A466 /* User.swift */; };
 		3F7D966729BE1A680079A466 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3F7D966629BE1A680079A466 /* Kingfisher */; };
+		3F7D966929C0A3F10079A466 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D966829C0A3F10079A466 /* ExploreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		3F7D965F29BBC3E90079A466 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		3F7D966129BD274A0079A466 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		3F7D966329BE11A00079A466 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3F7D966829C0A3F10079A466 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +296,7 @@
 		3F7D962329B92F5C0079A466 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				3F7D966829C0A3F10079A466 /* ExploreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 				3F7D95F729B9168F0079A466 /* ContentView.swift in Sources */,
 				3F7D962D29B934680079A466 /* SideMenuRowView.swift in Sources */,
 				3F7D962629B92FAD0079A466 /* UsersRowView.swift in Sources */,
+				3F7D966929C0A3F10079A466 /* ExploreViewModel.swift in Sources */,
 				3F7D960E29B918AE0079A466 /* TweetRowView.swift in Sources */,
 				3F7D964529BA3E740079A466 /* CustomInputField.swift in Sources */,
 				3F7D966429BE11A00079A466 /* User.swift in Sources */,
