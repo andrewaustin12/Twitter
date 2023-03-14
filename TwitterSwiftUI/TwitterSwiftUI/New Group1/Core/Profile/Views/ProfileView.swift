@@ -32,6 +32,7 @@ struct ProfileView: View {
             
             Spacer()
         }
+        .navigationBarHidden(true)
     }
 }
 
@@ -60,7 +61,7 @@ extension ProfileView {
                         .resizable()
                         .frame(width: 20, height: 16)
                         .foregroundColor(.white)
-                        .offset(x: 16, y: -20)
+                        .offset(x: 16, y: -4)
                 }
                 
                 KFImage(URL(string: user.profileImageUrl))
