@@ -31,7 +31,7 @@ class AuthViewModel: ObservableObject {
             guard let user = result?.user else { return }
             self.userSession = user
             self.fetchUser()
-            print("DEBUG: Did log user in..")
+//            print("DEBUG: Did log user in..")
         }
     }
                            
