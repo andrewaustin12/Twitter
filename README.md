@@ -7,6 +7,8 @@ Full Stack Twitter App made with with SwiftUI.
 
 
 ### Technologies Used 
+* SwiftUI
+* XCode
 * FirebaseAuth
 * KingFisher
 
